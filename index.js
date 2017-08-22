@@ -16,13 +16,13 @@ function destructivelyPrependKitten (elm) {
 }
 
 function destructivelyRemoveLastKitten() {
-  kittens.slice(0, kittens.length-1);
+  kittens.pop();
   return kittens;
   kittens = ["Milo", "Otis", "Garfield"];
 }
 
 function destructivelyRemoveFirstKitten() {
-  kittens.slice(1);
+  kittens.shift();
   return kittens;
   kittens = ["Milo", "Otis", "Garfield"];
 }
