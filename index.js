@@ -14,3 +14,9 @@ function destructivelyPrependKitten (elm) {
   return kittens;
   kittens = ["Milo", "Otis", "Garfield"];
 }
+
+function destructivelyRemoveLastKitten {
+  kittens.slice(0, kittens.length-1);
+  return kittens;
+  kittens = ["Milo", "Otis", "Garfield"];
+}
