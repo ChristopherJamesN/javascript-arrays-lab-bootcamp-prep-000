@@ -20,3 +20,9 @@ function destructivelyRemoveLastKitten() {
   return kittens;
   kittens = ["Milo", "Otis", "Garfield"];
 }
+
+function destructivelyRemoveFirstKitten() {
+  kittens.slice(1);
+  return kittens;
+  kittens = ["Milo", "Otis", "Garfield"];
+}
